@@ -1,0 +1,33 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated machine-learning outputs
+outputs/
+*.joblib
+*.pkl
+*.pickle
+
+# Logs and local run files
+*.log
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local screenshots and exports
+Screenshot*.png
